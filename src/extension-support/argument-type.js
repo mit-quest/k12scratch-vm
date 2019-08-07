@@ -34,6 +34,11 @@ const ArgumentType = {
     MATRIX: 'matrix',
 
     /**
+     * String value with ganpaint field
+     */
+    GANPAINT: 'ganpaint',
+
+    /**
      * MIDI note number with note picker (piano) field
      */
     NOTE: 'note'

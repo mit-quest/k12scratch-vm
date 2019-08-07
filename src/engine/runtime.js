@@ -70,6 +70,10 @@ const ArgumentTypeMap = (() => {
         shadowType: 'matrix',
         fieldType: 'MATRIX'
     };
+    map[ArgumentType.GANPAINT] = {
+        shadowType: 'ganpaint',
+        fieldType: 'GANPAINT'
+    };
     map[ArgumentType.NOTE] = {
         shadowType: 'note',
         fieldType: 'NOTE'

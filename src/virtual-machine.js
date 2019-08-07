@@ -633,6 +633,12 @@ class VirtualMachine extends EventEmitter {
      * @returns {?Promise} - a promise that resolves when the costume has been added
      */
     addCostume (md5ext, costumeObject, optTargetId, optVersion) {
+        console.log('------------------');
+        console.log(md5ext);
+        console.log(costumeObject);
+        console.log(optTargetId);
+        console.log(optVersion);
+
         const target = optTargetId ? this.runtime.getTargetById(optTargetId) :
             this.editingTarget;
         if (target) {
