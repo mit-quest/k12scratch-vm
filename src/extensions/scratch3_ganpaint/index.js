@@ -68,18 +68,18 @@ class Scratch3GANPaintBlocks {
      * @param {object} args - the block's arguments. 
      */
     saveGANPaintImage (args) {
-        console.log(args);
+	console.log(args);
 
-        // costumeObj = {
+        //costumeObj = {
         //     asset: {
         //         assetId: '../../../../scratch-blocks/media/extensions/ganpaint_images/church0',
         //         dataFormat: 'jpg'
         //     }
         //
-        // }
+        //}
 
-        // const stage = this.runtime.getTargetForStage();
-        // stage.addCostume('../../../../scratch-blocks/media/extensions/ganpaint_images/church0.jpg', null);
+        //const stage = this.runtime.getTargetForStage();
+        //stage.addCostume('../../../../scratch-blocks/media/extensions/ganpaint_images/church0.jpg', null);
     }
 }
 
