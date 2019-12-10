@@ -5,6 +5,10 @@
 [![Coverage Status](https://coveralls.io/repos/github/LLK/scratch-vm/badge.svg?branch=develop)](https://coveralls.io/github/LLK/scratch-vm?branch=develop)
 [![Greenkeeper badge](https://badges.greenkeeper.io/LLK/scratch-vm.svg)](https://greenkeeper.io/)
 
+## GANPaint
+
+This version of Scratch VM is meant to accommodate the GANPaint extension. For more background on the extension, please go to [https://github.com/PTegmark/Scratch-GANPaint/blob/master/README.md](https://github.com/PTegmark/Scratch-GANPaint/blob/master/README.md)
+
 ## Installation
 This requires you to have Git and Node.js installed.
 
